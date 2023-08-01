@@ -9,8 +9,12 @@ function printFirstNames(){
     fetchFirstname()
     .then(userData =>{
         const firstName= userData.results.map(results=>results.name.first)
-        console.log('first Name:', firstName)
-    })
+        const lastName= userData.results.map(results=>results.name.last)
+        const fullName= firstName+ ' ' + lastName
+        console.log(fullName)
+        
+        
+})
 }
 
 printFirstNames()
