@@ -1,8 +1,8 @@
 async function fetchCatData(){
     try{
         const response = await fetch('https://api.thecatapi.com/v1/breeds')
-        const data =await response.json();
-        return data
+        const dataa =await response.json();
+        return dataa
     }
     catch(error){
         console.error(error)
