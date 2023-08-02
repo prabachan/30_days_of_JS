@@ -16,5 +16,25 @@ function printFirstNames(){
         
 })
 }
+// printFirstNames()
 
-printFirstNames()
+
+// const fetchRandomUser = () => fetch('https://randomuser.me/api/')
+//     .then(response => {
+//         const data = response.json()
+//         return data.results
+//     })
+//     .catch(error => console.error(error))
+//     // .finally(() => loading = false)
+
+// const listUsernames = () => fetchRandomUser().then((data) => data.map((item) => {
+//     const name = item.name;
+
+//     return ({
+//         fullName: `${name.first} ${name.last}`
+//     })
+// }))
+
+// const printUsernames = listUsernames.then((data) => data.map((item) => console.log(item.fullName)))
+
+// printUsernames();
