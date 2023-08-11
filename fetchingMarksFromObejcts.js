@@ -15,5 +15,5 @@ dost:80
 //easy way to do it
 
 for(let key in marks){
-    console.log('the marks of' + key 'is' + key[marks])
+    console.log('the marks of' + key + 'is' + key[marks])
 }
